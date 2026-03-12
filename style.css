@@ -69,7 +69,7 @@ a {
   width: 3.5vw;
   background-position: center, center;
   background-size: cover;
-  background-image: url(/praktika/1/img/1.webp);
+  background-image: url(/zakaz1/img/1.webp);
 }
 .box12 {
   background-color: var(--color3);
@@ -109,7 +109,7 @@ a {
 }
 .img1,
 .img2 {
-  background: url(/praktika/1/img/3.webp);
+  background: url(/zakaz1/img/3.webp);
   width: 2.1vw;
   height: 2.8vw;
   background-position: center, center;
@@ -220,7 +220,7 @@ a {
 #left {
   width: 3vw;
   height: 3vw;
-  background-image: url("img/left2.png");
+  background-image: url("/zakaz1/img/left2.png");
   background-position: center, center;
   background-size: cover;
   transform: rotate(180deg);
@@ -228,7 +228,7 @@ a {
 #rite {
   width: 3vw;
   height: 3vw;
-  background-image: url("img/left2.png");
+  background-image: url("/zakaz1/img/left2.png");
   background-position: center, center;
   background-size: cover;
   transform: rotate(360deg);
@@ -366,7 +366,7 @@ a {
 */
 
 .foto1 {
-  background: url(/praktika/1/img/f16.webp);
+  background: url(/zakaz1/img/f16.webp);
   width: 100%;
   height: 30vw;
   background-position: center, center;
@@ -374,7 +374,7 @@ a {
 }
 
 .foto2 {
-  background: url(/praktika/1/img/f21.webp);
+  background: url(/zakaz1/img/f21.webp);
   height: 10vw;
   background-position: center, center;
   background-size: cover;
@@ -512,7 +512,7 @@ input[type="radio"]:checked + ::after{
   margin-top: 5%;
 }
 .tel2 {
-  background: url(/praktika/1/img/f22.webp);
+  background: url(/zakaz1/img/f22.webp);
   width: 5vw;
   height: 5vw;
   background-position: center, center;
@@ -563,17 +563,18 @@ input[type="radio"]:checked + ::after{
   gap: 1vw;
 }
 .viber{
-  background: url(/praktika/1/img/f24.webp);
+  background: url(/zakaz1/img/f24.webp);
   width: 4vw;
   height: 4vw;
   background-position: center, center;
   background-size: cover;
 }
 .telega{
-  background: url(/praktika/1/img/f25.webp);
+  background: url(/zakaz1/img/f25.webp);
   width: 4vw;
   height: 4vw;
   background-position: center, center;
   background-size: cover;
 
 }
+
