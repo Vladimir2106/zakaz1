@@ -69,7 +69,7 @@ a {
   width: 8vw;
   background-position: center, center;
   background-size: cover;
-  background-image: url(/praktika/1/img/1.webp);
+  background-image: url(/img/1.webp);
 }
 .box12 {
   background-color: var(--color3);
@@ -95,7 +95,7 @@ a {
   font-size: 4vw;
 }
 .box14 {
-  background-image: url(/praktika/1/img/2.webp);
+  background-image: url(/img/2.webp);
   width: 100%;
   height: 80vw;
   background-position: center, center;
@@ -112,7 +112,7 @@ a {
 }
 .img1,
 .img2 {
-  background: url(/praktika/1/img/3.webp);
+  background: url(/img/3.webp);
   width: 4.1vw;
   height: 4.8vw;
   background-position: center, center;
@@ -225,7 +225,7 @@ a {
 #left {
   width: 4vw;
     height: 4vw;
-    background-image: url(img/left2.png);
+    background-image: url(/img/left2.png);
     background-position: center, center;
     background-size: cover;
     transform: rotate(180deg);
@@ -234,7 +234,7 @@ a {
 #rite {
  width: 4vw;
     height: 4vw;
-    background-image: url(img/left2.png);
+    background-image: url(/img/left2.png);
     background-position: center, center;
     background-size: cover;
     transform: rotate(360deg);
@@ -381,7 +381,7 @@ a {
 */
 
 .foto1 {
-  background: url(/praktika/1/img/f16.webp);
+  background: url(/img/f16.webp);
   width: 100%;
   height: 60vw;
   background-position: center, center;
@@ -389,7 +389,7 @@ a {
 }
 
 .foto2 {
-  background: url(/praktika/1/img/f21.webp);
+  background: url(/img/f21.webp);
   height: 24vw;
   background-position: center, center;
   background-size: cover;
@@ -471,36 +471,6 @@ input[type="radio"] {
   width:5.5vw;
 }
 
-/*
-label {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ccc;
-  border-radius: 50%; /* Делаем его круглым *//*
-  cursor: pointer;
-  position: relative; /* Для позиционирования галочки *//*
-  margin-right: 8px;
-}*//*
-
-input[type="radio"]:checked + ::after{
-  content: "";
-  display: block;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 3px;
-  height: 3px;
-  border: solid rgb(251, 6, 6);
-  border-radius: 50%;
-  background: rgb(255, 255, 255);
-}
-/* Можно изменить цвет фона при выбранном чекбоксе */
-/*input[type="checkbox"]:checked + label {
- background-color: #4CAF50;
-  border-color: #4CAF50;
-}*/
-
 .butom {
   background: var(--color4);
   width: 90%;
@@ -536,7 +506,7 @@ input[type="radio"]:checked + ::after{
   font-size: 7vw;
 }
 .tel2 {
-  background: url(/praktika/1/img/f22.webp);
+  background: url(/img/f22.webp);
   width: 5vw;
   height: 5vw;
   background-position: center, center;
@@ -588,14 +558,14 @@ input[type="radio"]:checked + ::after{
   gap: 1vw;
 }
 .viber{
-  background: url(/praktika/1/img/f24.webp);
+  background: url(/img/f24.webp);
   width: 4vw;
   height: 4vw;
   background-position: center, center;
   background-size: cover;
 }
 .telega{
-  background: url(/praktika/1/img/f25.webp);
+  background: url(/img/f25.webp);
   width: 4vw;
   height: 4vw;
   background-position: center, center;
