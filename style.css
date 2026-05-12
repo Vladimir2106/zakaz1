@@ -52,7 +52,7 @@ a {
 .box11 {
   padding: 2%;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 85% 15%;
     background: var(--color1);
     justify-items: legacy;
 }
@@ -62,7 +62,7 @@ a {
   font-family: var(--font1);
   text-align: center;
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 .box111 {
@@ -76,7 +76,7 @@ a {
 }
 .box12 h2 {
   color: var(--color5);
-  font-size: 5vw;
+  font-size: 6vw;
   text-transform: uppercase;
 }
 .box12 span,
@@ -92,7 +92,7 @@ a {
   padding: 1%;
 }
 .box13 h3{
-  font-size: 4vw;
+  font-size: 5vw;
 }
 .box14 {
   background-image: url(img/2.webp);
@@ -103,7 +103,7 @@ a {
 }
 .box15 {
   background-color: var(--color8);
-  font-size: 5vw;
+  font-size: 6vw;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -113,8 +113,8 @@ a {
 .img1,
 .img2 {
   background: url(img/3.webp);
-  width: 4.1vw;
-  height: 4.8vw;
+  width: 5.5vw;
+  height: 7vw;
   background-position: center, center;
   background-size: contain;
 }
@@ -127,7 +127,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 3vw;
+  font-size: 6vw;
   color: var(--color3);
   font-weight: 400;
   display: grid;
@@ -166,7 +166,7 @@ a {
 }
 
 .box163 {
-  font-size: 4vw;
+  font-size: 7vw;
 }
 .box164 {
   font-size: 4.5vw;
@@ -180,7 +180,7 @@ a {
 
 .box171 {
   background: var(--color4);
-  margin: 25% 5% 5% 5%;
+  margin: 50% 5% 50% 5%;
   font-size: 7vw;
   padding: 10% 30% 10% 30%;
   border-radius: 35px;
@@ -210,6 +210,8 @@ a {
     align-items: center;
     width: 90%;
     justify-content: center;
+    margin-bottom: 20%;
+    gap: 2 rem;
 }
 .box1011 :nth-child(3) {
   transform: translateY(-700%);
@@ -291,6 +293,7 @@ a {
   border-top: 1px solid var(--color1);
   color: var(--color1);
   font-size: 7vw;
+  margin-top: 5%;
 }
 .box91 {
   display: grid;
@@ -311,7 +314,7 @@ a {
 .menu-burger2 {
   display: flex;
   flex-direction: column;
-  width: 7vw;
+  width: 10vw;
   aspect-ratio: 1;
   cursor: pointer;
   z-index: 999;
@@ -319,12 +322,12 @@ a {
   align-items: center;
 }
 .menu-burger2 > span {
-  width: 80%;
-  height: 10%;
+  width: 70%;
+  height: 13%;
   background-color: var(--color4);
   border-radius: 0.25rem;
   transition: all 0.4s;
-  margin-bottom: -8%;
+  margin-bottom: -11%;
 }
 .faq1 {
   color: red;
@@ -381,7 +384,7 @@ a {
 */
 
 .foto1 {
-  background: url(img/f16.webp);
+  background: url(/praktika/1/img/f16.webp);
   width: 100%;
   height: 60vw;
   background-position: center, center;
@@ -393,7 +396,7 @@ a {
   height: 24vw;
   background-position: center, center;
   background-size: cover;
-  margin: 2vw;
+  margin: 3vw 2vw 11vw 2vw;
 }
 .box10 {
   display: flex;
@@ -471,6 +474,36 @@ input[type="radio"] {
   width:5.5vw;
 }
 
+/*
+label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%; /* Делаем его круглым *//*
+  cursor: pointer;
+  position: relative; /* Для позиционирования галочки *//*
+  margin-right: 8px;
+}*//*
+
+input[type="radio"]:checked + ::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 3px;
+  height: 3px;
+  border: solid rgb(251, 6, 6);
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+}
+/* Можно изменить цвет фона при выбранном чекбоксе */
+/*input[type="checkbox"]:checked + label {
+ background-color: #4CAF50;
+  border-color: #4CAF50;
+}*/
+
 .butom {
   background: var(--color4);
   width: 90%;
@@ -479,7 +512,8 @@ input[type="radio"] {
   border-radius: 7px;
   border: none;
   color: var(--color6);
-  padding: 3%;
+  padding: 6%;
+  border-radius: 35px;
 }
 
 .telef {
@@ -487,6 +521,11 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.telef a{
+  text-decoration: none;
+  color: var(--color1);
+  margin-top: 5%;
 }
 
 .telef1 {
@@ -507,16 +546,16 @@ input[type="radio"] {
 }
 .tel2 {
   background: url(img/f22.webp);
-  width: 5vw;
-  height: 5vw;
+  width: 10vw;
+  height: 10vw;
   background-position: center, center;
   background-size: cover;
 }
 .tel3 {
   border-bottom: 5px solid var(--color4);
-  width: 20%;
+  width: 56%;
   border-radius: 30px;
-  margin: 10%;
+  margin: 5%;
 }
 .tel4 {
   border-radius: 20px;
@@ -559,15 +598,15 @@ input[type="radio"] {
 }
 .viber{
   background: url(img/f24.webp);
-  width: 4vw;
-  height: 4vw;
+  width: 10vw;
+  height: 10vw;
   background-position: center, center;
   background-size: cover;
 }
 .telega{
   background: url(img/f25.webp);
-  width: 4vw;
-  height: 4vw;
+  width: 10vw;
+  height: 10vw;
   background-position: center, center;
   background-size: cover;
 }
