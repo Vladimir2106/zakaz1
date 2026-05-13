@@ -384,7 +384,7 @@ a {
 */
 
 .foto1 {
-  background: url(/praktika/1/img/f16.webp);
+  background: url(img/f16.webp);
   width: 100%;
   height: 60vw;
   background-position: center, center;
