@@ -615,7 +615,7 @@ input[type="radio"]:checked + ::after{
 
 /*начало слайдер 2 GALARY*/
 .Galary{
-  background: var(--color3);
+  background: var(--color6);
   /*margin: 0px 2.3vw 0 2.3vw;*/
 }
 .contgalary {
