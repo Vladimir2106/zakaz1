@@ -23,6 +23,12 @@ h3{
 a {
   text-decoration: none;
 }
+h1{
+   color: var(--color5);
+  font-size: 6vw;
+  text-transform: uppercase;
+}
+
 .BOX {
   /*width: 100%;
   display: flex;
@@ -35,6 +41,9 @@ a {
   background: var(--color9);
 }
 
+.rezalt{
+  color: var(--color5);
+}
 .cont {
   display: flex;
   flex-direction: column;
@@ -46,7 +55,7 @@ a {
 .box1 {
   display: flex;
   flex-direction: column;
- /* border: 2px solid var(--color1);*/
+  /*border: 2px solid var(--color1);*/
   text-align: center;
 }
 .box11 {
@@ -62,14 +71,40 @@ a {
   font-family: var(--font1);
   text-align: center;
   font-weight: 400;
-  font-size: 5vw;
+  /*font-size: 7vw;*/
+  color: var(--color5);
 }
+
+.box11 h3 {
+  color: var(--color2);
+  font-family: var(--font1);
+ color: var(--color5);
+  font-weight: 400;
+  font-size: 5vw; 
+}
+
+.box1111 {
+  padding: 2%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    justify-items: legacy;
+    background: var(--color1);
+}
+.box1111 h3 {
+  color: var(--color2);
+  font-family: var(--font1);
+  color: var(--color6);
+  font-weight: 400;
+  font-size: 5vw; 
+}
+
+
 
 .box111 {
   width: 8vw;
   background-position: center, center;
   background-size: cover;
-  background-image: url(img/1.webp);
+  background-image: url(/praktika/1/img/1.webp);
 }
 .box12 {
   background-color: var(--color3);
@@ -91,7 +126,7 @@ a {
   color: var(--color6);
   padding: 1%;
 }
-.box13 h3{
+.box13 h2{
   font-size: 5vw;
 }
 .box14 {
@@ -103,7 +138,7 @@ a {
 }
 .box15 {
   background-color: var(--color8);
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -145,6 +180,7 @@ a {
 
 #yellow {
   color: var(--color4);
+  text-transform: uppercase;
 }
 .wite {
   color: var(--color5);
@@ -180,7 +216,7 @@ a {
 
 .box171 {
   background: var(--color4);
-  margin: 50% 5% 5% 5%;
+  margin: 30% 5% 5% 5%;
   font-size: 7vw;
   padding: 10% 30% 10% 30%;
   border-radius: 35px;
@@ -198,7 +234,7 @@ a {
 .box72 {
   font-size: 7vw;
   color: var(--color1);
-  margin: 40% 0% 20% 0%;
+  margin: 20% 0% 20% 0%;
 }
 
 .box1011 {
@@ -210,7 +246,7 @@ a {
     align-items: center;
     width: 90%;
     justify-content: center;
-    margin-bottom: 20%;
+    /*margin-bottom: 20%;*/
     gap: 2 rem;
 }
 .box1011 :nth-child(3) {
@@ -225,8 +261,8 @@ a {
     width: 90%;
 }
 #left {
-  width: 4vw;
-    height: 4vw;
+  width: 6vw;
+    height: 6vw;
     background-image: url(img/left2.png);
     background-position: center, center;
     background-size: cover;
@@ -234,8 +270,8 @@ a {
     padding-right: 2%;
 }
 #rite {
- width: 4vw;
-    height: 4vw;
+ width: 6vw;
+    height: 6vw;
     background-image: url(img/left2.png);
     background-position: center, center;
     background-size: cover;
@@ -245,7 +281,7 @@ a {
 .box8 {
   font-size: 7vw;
   align-items: center;
-  margin: 10% 0% 10% 0%;
+  margin: 5% 0% 5% 0%;
 }
 
 .table {
@@ -295,6 +331,14 @@ a {
   font-size: 7vw;
   margin-top: 5%;
 }
+
+.verx2 {
+  width: 8vw;
+  height: 8vw;
+  fill: var(--color4);
+
+}
+
 .box91 {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -330,18 +374,17 @@ a {
   margin-bottom: -11%;
 }
 .faq1 {
-  color: red;
   transform: rotate(90deg);
+  display: none;
 }
 .faq11 {
   transform: rotate(45deg);
   transition-duration: 2s;
+  display: none;
 }
-.faq2 {
-  transform: translateY(-5px);
-}
+
 .faq21 {
-  transform: rotate(-45deg);
+  transform: rotate(-180deg);
 }
 
 .table2 {
@@ -463,7 +506,7 @@ a {
 }
 .form1 {
   display: flex;
-  width: 50%;
+ /* width: 50%;*/
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -506,7 +549,7 @@ input[type="radio"]:checked + ::after{
 
 .butom {
   background: var(--color4);
-  width: 90%;
+  width: 80%;
   font-size: 7vw;
   font-weight: 600;
   border-radius: 7px;
@@ -561,11 +604,12 @@ input[type="radio"]:checked + ::after{
   border-radius: 20px;
   background: var(--color4);
   padding: 5%;
-  font-size: 6vw;
 }
 .tel4 a {
   text-decoration: none;
-  color: var(--color2);
+  color: var(--color6);
+  font-size: 6vw;
+  font-weight: 700;
 }
 .foo {
   display: flex;
@@ -594,19 +638,19 @@ input[type="radio"]:checked + ::after{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1vw;
+  gap: 3vw;
 }
 .viber{
   background: url(img/f24.webp);
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
   background-position: center, center;
   background-size: cover;
 }
 .telega{
-  background: url(img/f25.webp);
-  width: 10vw;
-  height: 10vw;
+  background: url(/praktika/1/img/f25.webp);
+  width: 12vw;
+  height: 12vw;
   background-position: center, center;
   background-size: cover;
 }
