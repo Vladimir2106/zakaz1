@@ -150,7 +150,7 @@ async function send_telega(event) {
 
     //отработка ошибки запроса
     if (response.ok) {
-      massage_rezalt.textContent = "Ваш заказ принят, мы скоро с вами свяжемся"; //виведення повідомлення коли відбувся успішний запрос
+      massage_rezalt.textContent = "Ваше замовлення прийняте, ми скоро з вами зв'яжемося"; //виведення повідомлення коли відбувся успішний запрос
       forma.reset(); // очистка формы после отправки
     } else {
       throw new Error(response.statusText); //создали текст ошибки
@@ -176,11 +176,18 @@ function QW() {
   for (let i of r) {
     i.addEventListener("click", function () {
       //this.classList.add('activ')
-      // console.log(this)
+       console.log(this)
       this.querySelector(".faq1").classList.add("faq11"); //первая стрелка
       this.querySelector(".faq2").classList.add("faq21"); //вторая стрелка
       let b = this.nextElementSibling;
-      //console.log(b);
+
+
+      let b1 = this.parentNode
+      console.log(b1);
+      let b2=b1.querySelector("h4")
+      b2.classList.add("activ");
+
+
       let c = b.querySelectorAll("h4");
       b.classList.add("activ");//для блока где таблица в других ситуациях не нужно
 
