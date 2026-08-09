@@ -35,7 +35,7 @@ var i3 = 0;
 var b4 = [];
 
 b4[0] = "img/16.webp";
-b4[1] = "img/17.webp";
+b4[1] = "img/17.png";
 b4[2] = "img/18.webp";
 b4[3] = "img/19.webp";
 b4[4] = "img/20.webp";
